@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: rgb(170, 197, 170);
+  margin: 5px, 10px, 5px, 10px;
+  padding: 20px;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: black;
+  font-size: 2em;
+  text-align: center;
+}
+.page-home img {
+  display: inline;
+  height: 300px;
+  width: 300px;
+}
+
+.page-about img {
+  width: 1000px;
+}
+.page-services img {
+  width: 800px;
+}
+
+.services-article {
+  display: table;
+  width: 100%;
+  table-layout: fixed; /* Ensures cells take up the full width */
+}
+
+/* Style each section like a table cell */
+.services-article section {
+  display: table-cell;
+  vertical-align: middle; /* Vertically centers content within the cell */
+  padding: 20px; /* Adds space inside the cells */
+}
+
+/* Image styling */
+.services-article img {
+  width: 300px; /* Ensures the image takes up the full width of its cell */
+  height: 300px; /* Maintains the aspect ratio */
+}
+
+.services-article p {
+  font-size: 15px;
+}
+.page-services p {
+  font-size: 15px;
+}
+
+article {
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: 15px;
+  font-size: 20px;
+}
+h3 {
+  color: darkgreen;
+  font-size: 1.3em;
+}
+.page-about h3 {
+  text-align: center;
+}
+h6 {
+  color: white;
+  font: size 35px;
+  text-align: center;
+}
+
+p {
+  color: dark gray;
+  font-size: small;
+  text-align: justify;
+}
+.page-about p {
+  text-align: center;
+}
+ul {
+  color: black;
+  font-size: small;
+
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+}
+li {
+  margin-bottom: 1em;
+  display: inline-block;
+  margin-left: 1em;
+}
+a {
+  text-transform: capitalize;
+  font-size: medium;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(45, 36, 36);
+}
+div {
+  text-align: center;
+  padding: 10px 0;
+}
+.fa {
+  margin-left: 0.5em;
+  color: slateblue;
+}
+
+.button {
+  width: 110px;
+  padding: 5px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid #080b0a;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+span {
+  background: #009688;
+  height: 100%;
+  width: 0;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+.button:hover span {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  text-decoration: none;
+}
